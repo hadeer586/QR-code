@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    background-color: rgba(119, 156, 167, 0.311);
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 300px;
+}
+.code {
+    padding: 50px 30px;
+    background-color: rgb(56, 136, 248);
+    border-radius: 10px;
+}
+.code img {
+    width: 180px;
+}
+.container .text {
+    padding: 10px;
+}
+.container h2 {
+    color:rgb(37, 55, 61);
+    font-weight: bolder;
+}
+.container  p {
+    color: #777;
+    font-size: 18px;
+}
